@@ -1,5 +1,5 @@
 # coding=utf-8
-from node.Node import Node
+from structures.node import Node
 
 
 # Estrutura de dados First-in First-Out (FIFO)
