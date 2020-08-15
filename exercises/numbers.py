@@ -13,6 +13,7 @@ def is_a_prime_number(number):
     """
     return number
 
+
 # Exercício 2:
 # A famosa Fabiana foi a uma festa com o intuito de ficar com Jorge, da situação problema anterior.
 # Jorge é uma pessoa difícil e pediu que Fabiana resolvesse o seguinte exercício para decidir.
@@ -25,6 +26,7 @@ def fib(number):
      OU RECURSIVA DO JEITO QUE ACHAR MELHOR.
     """
     return number
+
 
 # Exercício 3:
 # 30 anos depois de Fabiana e Jorge se casarem, seu filho Matheus pede ajuda num problema:
