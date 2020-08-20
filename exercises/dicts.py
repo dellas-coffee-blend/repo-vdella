@@ -14,3 +14,4 @@ def contact_dict(contact_name):
     """
     contacts = ["João", "Mariazinha", "Fabiana"]
     tel_numbers = ["997998765", "998790098", "98765773"]
+    return contact_name, contacts, tel_numbers

@@ -30,10 +30,6 @@ def palindrome(text):
      Um palíndromo é toda palavra que possui simetria a partir do meio.
         Ex: A palavra ARARA é um palíndromo! -> Retorne True
 
-            Meio da palavra
-                |
-            A R A R A
-
-    Se a palavra não for um palíndromo, apenas retorne False.
+     Se a palavra não for um palíndromo, apenas retorne False.
     """
     return text
