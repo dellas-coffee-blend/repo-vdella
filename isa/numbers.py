@@ -1,17 +1,12 @@
 # coding=utf-8
 
-# Exercício 1:
-# Jorge quer escrever um programa que retorna um valor booleano
-# caso um dado número, enviado pelo usuário, seja um número primo
-# ou não.
 def is_a_prime_number(number):
-    """
-    TODO
-     Complete a função de modo que se "number" for primo seja
-     retornado True.
-     Caso contrário, retorne False.
-    """
-    return number
+    contador = 2
+    while contador != number:
+        if number % contador == 0:
+            return False
+        contador = contador + 1
+    return True
 
 
 # Exercício 2:
