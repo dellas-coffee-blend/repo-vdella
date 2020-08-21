@@ -1,5 +1,5 @@
 import unittest
-from exercises.numbers import *
+from src.isa.numbers import *
 
 
 class TestNumbers(unittest.TestCase):

@@ -1,6 +1,6 @@
 # coding=utf-8
 import unittest
-from exercises.strings import *
+from src.giulia.strings import *
 
 
 class TestStrings(unittest.TestCase):
