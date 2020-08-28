@@ -46,16 +46,16 @@ def prime_number_fib(number):
 # Estamos no futuro. Matheus conseguiu descobrir a fórmula para a produção de água em massa e agora temos água
 # desidratada, é um milagre. Mas mais um desafio aparece. Um forasteiro aparece a cavalo nas portas de seu laboratório
 # e diz: "Tens a manha?" Mas, claro, que sim. E Matheus lhe escuta dizer o seguinte:
-def area(shape, value_according_to_shape):
+def area(shape, *value_according_to_shape):
     """
     TODO
      O forasteiro criou uma convenção e disse a Matheus:
-     * Se "shape" for 0, vou querer o valor da área de um CÍRCULO, e seu RAIO será representado por
+     * Se "shape" for 0, vou querer o valor da área de um CÍRCULO, e seu RAIO será representado pelo primeiro valor
      "value_according_to_shape"
-     * Se "shape" for 1, vou querer o valor da área de um TRIÂNGULO, e sua ALTURA será representada por
-     "value_according_to_shape"
-     * Se "shape" for 2, vou querer o valor da área de um QUADRADO, e UM DE SEUS LADOS será representado por
-     "value_according_to_shape".
+     * Se "shape" for 1, vou querer o valor da área de um TRIÂNGULO, e sua ALTURA será representado pelo primeiro valor
+     "value_according_to_shape", ENQUANTO SUA ALTURA SERÁ O SEGUNDO VALOR.
+     * Se "shape" for 2, vou querer o valor da área de um QUADRADO, e UM DE SEUS LADOS será representado pelo primeiro
+      valor "value_according_to_shape".
      * Caso não seja passado um dos valores requeridos, quero um erro, não um "print(...)".
     """
     return shape, value_according_to_shape
