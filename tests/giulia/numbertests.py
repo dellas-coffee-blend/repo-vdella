@@ -1,4 +1,5 @@
 import unittest
+from src.people.giulia.numbers import *
 
 
 class TestNumbers(unittest.TestCase):

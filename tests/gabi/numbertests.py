@@ -1,4 +1,5 @@
 import unittest
+from src.people.gabi.numbers import *
 
 
 class TestNumbers(unittest.TestCase):
