@@ -1,6 +1,6 @@
 # coding=utf-8
 import unittest
-from src.isa.strings import *
+from src.people.isa.strings import *
 
 
 class TestStrings(unittest.TestCase):

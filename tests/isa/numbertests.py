@@ -1,5 +1,5 @@
 import unittest
-from src.isa.numbers import *
+from src.people.isa.numbers import *
 
 
 class TestNumbers(unittest.TestCase):
